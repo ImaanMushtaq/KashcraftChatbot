@@ -29,7 +29,7 @@ class Chatbot:
         return chat_completion.choices[0].message.content
 # Example usage:
 api_key = "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"
-knowledge_file = "D:\COGVEEL\python tutorials\chp10_prob\chapter11\Kashcraft_Brand_Info.txt"
+knowledge_file = "Kashcraft_Brand_Info.txt"
 
 bot = Chatbot(api_key)
 Question = st.text_input("Enter your query:")
