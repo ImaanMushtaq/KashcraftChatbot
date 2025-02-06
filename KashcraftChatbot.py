@@ -10,7 +10,7 @@ class Chatbot:
     def load_knowledge(self, file_path):
         """Load text file content to use as additional knowledge."""
         if os.path.exists(file_path):
-            with open("D:\COGVEEL\python tutorials\chp10_prob\chapter11\Kashcraft_Brand_Info.txt", "r", encoding="utf-8") as file:
+            with open("Kashcraft_Brand_Info.txt", "r", encoding="utf-8") as file:
                 return file.read()
         return ""
     
